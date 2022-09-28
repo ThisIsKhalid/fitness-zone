@@ -2,37 +2,37 @@
   {
     "id": "1",
     "name": "Push Up",
-    "time": 420,
+    "time": 30,
     "img": "https://images.unsplash.com/photo-1616803689943-5601631c7fec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHdvcmtvdXR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
   },
   {
     "id": "2",
     "name": "Lift Dumble",
-    "time": 420,
+    "time": 30,
     "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29ya291dCUyMG1lbnxlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=60"
   },
   {
     "id": "3",
     "name": "Run",
-    "time": 420,
+    "time": 120,
     "img": "https://images.unsplash.com/flagged/photo-1556746834-1cb5b8fabd54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHdvcmtvdXQlMjBtZW58ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
   },
   {
     "id": "4",
     "name": "Leg Press Machine",
-    "time": 420,
+    "time": 60,
     "img": "https://images.unsplash.com/photo-1434608519344-49d77a699e1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3F1YXRzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
   },
   {
     "id": "5",
     "name": "Doing Yoga",
-    "time": 420,
+    "time": 180,
     "img": "https://images.unsplash.com/photo-1588286840104-8957b019727f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fHdvcmtvdXQlMjBtZW58ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
   },
   {
     "id": "6",
     "name": "Doing dips on rails",
-    "time": 420,
+    "time": 120,
     "img": "https://images.unsplash.com/photo-1516082669438-2d2bb5082626?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTZ8fHdvcmtvdXQlMjBtZW58ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
   }
 ]
