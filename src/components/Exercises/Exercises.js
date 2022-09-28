@@ -19,6 +19,7 @@ const Exercises = () => {
                 {
                     exercises.map(exercise => <Exercise 
                     exercise={exercise}
+                    key={exercise.id}
                     ></Exercise>)
                 }
             </div>
