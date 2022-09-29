@@ -1,12 +1,10 @@
 import './App.css';
-import Details from './components/Details/Details';
-import Exercises from './components/Exercises/Exercises';
+import ExercisePlanner from './components/ExercisePlanner/ExercisePlanner';
 
 function App() {
   return (
-    <div className="grid grid-cols-3">
-      <Exercises></Exercises>
-      <Details></Details>
+    <div>
+      <ExercisePlanner></ExercisePlanner>
     </div>
   );
 }
