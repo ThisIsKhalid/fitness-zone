@@ -12,7 +12,7 @@ const ExercisePlanner = () => {
     
     // console.log(time);
     return (
-        <div className="grid grid-cols-3">
+        <div className="grid lg:grid-cols-3 container mx-auto lg:gap-3">
             <Exercises addToList={addToList}></Exercises>
             <Details exerciseTime={time}></Details>
         </div>

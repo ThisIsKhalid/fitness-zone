@@ -11,11 +11,10 @@ const Exercises = ({addToList}) => {
     }, [])
 
     return (
-        <div className='col-span-2 p-10'>
-            <h1 className='text-5xl font-bold text-teal-500'>The Fitness Zone</h1>
+        <div className='col-span-2'>
             <p className='text-2xl my-5'>Select today's exercise:</p>
 
-            <div className='grid grid-cols-3 gap-5'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3'>
                 {
                     exercises.map(exercise => <Exercise 
                     exercise={exercise}
