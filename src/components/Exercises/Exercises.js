@@ -11,7 +11,7 @@ const Exercises = () => {
     }, [])
 
     return (
-        <div className='col-span-2 p-10 border border-solid border-red-500'>
+        <div className='col-span-2 p-10'>
             <h1 className='text-5xl font-bold text-teal-500'>The Fitness Zone</h1>
             <p className='text-2xl my-5'>Select today's exercise:</p>
 
