@@ -17,7 +17,7 @@ const Details = ({exerciseTime}) => {
     
     return (
         <div className='order-first lg:order-none'>
-            
+
             <PersonaDetails></PersonaDetails>
 
             {/* Break time  */}
@@ -39,7 +39,7 @@ const Details = ({exerciseTime}) => {
             <div>
                 <div className='flex flex-row items-center justify-around bg-slate-200 mx-2 rounded-xl py-4 mb-3'>
                     <h6 className='text-xl font-medium'>Exercise time:</h6>
-                    <p>{exerciseTime} second</p>
+                    <p>{exerciseTime} minute</p>
                 </div>
                 <div className='flex flex-row items-center justify-around bg-slate-200 mx-2 rounded-xl py-4 '>
                     <h6 className='text-xl font-medium'>Break time:</h6>
