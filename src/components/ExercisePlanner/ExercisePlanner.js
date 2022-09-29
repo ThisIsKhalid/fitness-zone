@@ -3,7 +3,7 @@ import Details from '../Details/Details';
 import Exercises from '../Exercises/Exercises';
 
 const ExercisePlanner = () => {
-    const [time, setTime] = useState(0)
+    const [time, setTime] = useState(0);
 
     const addToList = (addedTime) => {
         const newTime = addedTime + time;

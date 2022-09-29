@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import img from '../../images/abdullah-ali.jpg'
 import AddBreak from '../AddBreak/AddBreak';
 
 const Details = ({exerciseTime}) => {
-    const addBreak = [10,20,30,40,50];
+    const addBreakTime = [10,20,30,40,50];
+
+    const [breakTime, setBreakTime] = useState(0);
+    const addBreak = (time) => {
+        setBreakTime(time);
+    }
     
     return (
         <div>
@@ -32,9 +37,10 @@ const Details = ({exerciseTime}) => {
             <h3 className='text-2xl font-semibold'>Add a Break:</h3>
             <div className='flex flex-row items-center justify-evenly bg-orange-200 py-4 rounded-md my-3'>
                 {
-                    addBreak.map(time => <AddBreak
+                    addBreakTime.map(time => <AddBreak
                     time={time}
                     key={time}
+                    addBreak={addBreak}
                     ></AddBreak>)
                 }
             </div>
@@ -47,7 +53,7 @@ const Details = ({exerciseTime}) => {
                 </div>
                 <div className='flex flex-row items-center justify-around bg-slate-200 mx-2 rounded-xl py-4 '>
                     <h6 className='text-xl font-medium'>Break time:</h6>
-                    <p>10 second</p>
+                    <p>{breakTime} second</p>
                 </div>
             </div>
         </div>
