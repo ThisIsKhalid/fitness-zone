@@ -10,7 +10,6 @@ const ExercisePlanner = () => {
         setTime(newTime);
     }
     
-    // console.log(time);
     return (
         <div className="grid lg:grid-cols-3 container mx-auto lg:gap-3">
             <Exercises addToList={addToList}></Exercises>

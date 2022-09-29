@@ -46,6 +46,7 @@ const Details = ({exerciseTime}) => {
                     <p>{prevBreakTime} second</p>
                 </div>
             </div>
+            <button className='bg-green-400 py-3 px-3 rounded-md w-full my-3 font-medium'>Activity Completed</button>
         </div>
     );
 };
