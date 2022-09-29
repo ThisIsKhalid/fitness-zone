@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import AddBreak from '../AddBreak/AddBreak';
 import PersonaDetails from '../PersonaDetails/PersonaDetails';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Details = ({exerciseTime}) => {
     const addBreakTime = [10,20,30,40,50];
@@ -13,6 +15,10 @@ const Details = ({exerciseTime}) => {
     let prevBreakTime = localStorage.getItem('breakTime');
     if(!prevBreakTime){
         prevBreakTime = breakTime;
+    }
+
+    const notify = () => {
+        toast("Thanks for your HARDWORK. Do this exercise regulerly. Because consistancy makes your body perfect.");
     }
     
     return (
@@ -46,7 +52,10 @@ const Details = ({exerciseTime}) => {
                     <p>{prevBreakTime} second</p>
                 </div>
             </div>
-            <button className='bg-green-400 py-3 px-3 rounded-md w-full my-3 font-medium'>Activity Completed</button>
+            <div>
+                <button className='bg-green-400 py-3 px-3 rounded-md w-full my-3 font-medium' onClick={notify}>Activity Completed</button>
+                <ToastContainer />
+            </div>
         </div>
     );
 };
