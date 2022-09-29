@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
 
-const Exercises = () => {
+const Exercises = ({addToList}) => {
     const [exercises, setExercises] = useState([]);
 
     useEffect( () => {
@@ -20,6 +20,7 @@ const Exercises = () => {
                     exercises.map(exercise => <Exercise 
                     exercise={exercise}
                     key={exercise.id}
+                    addToList={addToList}
                     ></Exercise>)
                 }
             </div>

@@ -2,8 +2,9 @@ import React from 'react';
 import img from '../../images/abdullah-ali.jpg'
 import AddBreak from '../AddBreak/AddBreak';
 
-const Details = () => {
+const Details = ({exerciseTime}) => {
     const addBreak = [10,20,30,40,50];
+    
     return (
         <div>
             <div className='flex flex-row items-center gap-3'>
@@ -42,7 +43,7 @@ const Details = () => {
             <div>
                 <div className='flex flex-row items-center justify-around bg-slate-200 mx-2 rounded-xl py-4 mb-3'>
                     <h6 className='text-xl font-medium'>Exercise time:</h6>
-                    <p>60 second</p>
+                    <p>{exerciseTime} second</p>
                 </div>
                 <div className='flex flex-row items-center justify-around bg-slate-200 mx-2 rounded-xl py-4 '>
                     <h6 className='text-xl font-medium'>Break time:</h6>
